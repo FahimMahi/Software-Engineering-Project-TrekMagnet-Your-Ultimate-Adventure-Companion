@@ -1,0 +1,98 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>330</y><w>210</w><h>220</h></coordinates><panel_attributes>Staff
+--
+-staff_id: int
+-staff_role: string
+-staff_name: string
+-staff_email: string
+-staff_phone: id
+-staff_address: string
+-staff_username: string
+-staff_password: string
+--
++addStaff(): void
++editStaff(): void
++delateStaff(): void
++searchStaff(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>350</y><w>210</w><h>170</h></coordinates><panel_attributes>Permission
+--
+-permission_id: int
+-permission_role_id: int
+-permission_name: string
+-permission_description: string
+--
++addPermission(): void
++editPermission(): void
++delatePermission(): void
++searchPermission(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>430</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>430</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>340</y><w>210</w><h>200</h></coordinates><panel_attributes>Customer
+--
+-customer_id: int
+-customer_name: string
+-customer_phone: int
+-customer_email: string
+-customer_address: string
+-customer_username: string
+-customer_password: string
+--
++addCustomer(): void
++editCustomer(): void
++delateCustomer(): void
++searchCustomer(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>640</y><w>210</w><h>190</h></coordinates><panel_attributes>Hotel
+--
+-hotel_id: int
+-hotel_name: string
+-hotel_address: string
+-hotel_type: string
+-hotel_description: string
+-hotel_rent: int
+--
++addHotel(): void
++editHotel(): void
++delateHotel(): void
++searchHotel(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>640</y><w>210</w><h>190</h></coordinates><panel_attributes>Payment
+--
+-payment_id: int
+-payment_name: string
+-payment_date: date
+-payment_description: string
+-payment_Customer_id: int
+--
++addPaymentl(): void
++editPayment(): void
++delatePayment(): void
++searchPayment(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>60</y><w>210</w><h>180</h></coordinates><panel_attributes>Package
+--
+-package_id: int
+-package_name: string
+-package_description: string
+-package_type: string
+-package_amount: int
+--
++addPackage(): void
++editPackage(): void
++delatePackage(): void
++searchPackage(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>40</y><w>210</w><h>210</h></coordinates><panel_attributes>Booking
+--
+-booking_id: int
+-booking_type: string
+-booking_title: string
+-booking_description: string
+-booking_amount: int
+-booking_hotel_id: int
+-booking_flight_id: int
+--
++addBooking(): void
++editBooking(): void
++delateBooking(): void
++searchBooking(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>640</y><w>210</w><h>190</h></coordinates><panel_attributes>Flight
+--
+-flight_id: int
+-flight_name: string
+-flight_type: string
+-flight_description: string
+-flight_ticket_price: int
+--
++addflight(): void
++editflight(): void
++delateflight(): void
++searchflight(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>510</y><w>320</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80;300;80;300;130</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>510</y><w>330</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>310;10;310;80;10;80;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>230</y><w>170</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>150;120;150;60;10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>240</y><w>200</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;50;180;50;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>510</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>
